@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    color: #01996D;
+    font-family: 'Georgia', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    color: #000;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+
+.text {
+    color: #424242;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.text-w {
+    color: white;
+}
+
+.text-s {
+    font-size: 20px;
+}
+
+.text-b {
+    color: black;
+}
+
+
+.button {
+    border-radius: 4px;
+    border: 1px solid #01996D;
+    background: #01996D;
+    display: inline-flex;
+    padding: 13px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.header--word {
+    color: #292929;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 72px;
+
+}
+
+.header--trial-word {
+    color: #292929;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 35px;
+
+}
+
+.header--trial-word-btn {
+    color: white;
+    margin-left: 35px;
+}
+
+.header--trial {
+    margin: -13px;
+}
+
+
+
+/* intro */
+
+.intro {
+    background: url(../img/radu-florin-CwTBt6jyagQ-unsplash\ 4.png) no-repeat center center/cover;
+    padding: 0 0 275px 0;
+
+
+}
+
+.intro--block {
+    padding: 288px 500px 0 0;
+    margin: 0 0 0 150px;
+}
+
+.intro--text {
+    margin-bottom: 30px;
+}
+
+
+
+/* How it works (hiw) */
+
+.hiw {
+    margin: 150px 0 0 150px;
+}
+
+.hiw--texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+
+
+
+.hiw--text {
+    padding-left: 200px;
+    padding-right: 80px;
+}
+
+/* cards */
+
+.cards--cards {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin: 150px 0 200px 150px;
+}
+
+.cards--card1-pic1-pos {
+    margin-top: 30px;
+    height: 462px;
+    position: relative;
+}
+
+.cards--card1-pic2-pos {
+    height: 135px;
+    position: relative;
+    top: -250px;
+    right: -195px;
+}
+
+.cards--card1-pic3-pos {
+    height: 135px;
+    position: relative;
+    top: -390px;
+    right: -195px;
+}
+
+
+.cards--card1 {
+    width: 400px;
+}
+
+.cards--card1-title {
+    margin-bottom: 15px;
+}
+
+.cards--card2 {
+    width: 400px;
+
+}
+
+.cards--card2-title {
+    margin-bottom: 15px;
+}
+
+.cards--card2-text {
+    margin-bottom: 30px;
+}
+
+.cards--card2-pic img {
+    height: 493px;
+}
+
+.cards--card2 {
+    width: 400px;
+}
+
+.cards--card3 {
+    width: 400px;
+
+}
+
+.cards--card3-title {
+    margin-bottom: 15px;
+}
+
+.cards--card3-text {
+    margin-bottom: 30px;
+}
+
+.cards--card3-pic img {
+    height: 493px;
+    border-radius: 10px;
+}
+
+.cards--card3 {
+    width: 400px;
+}
+
+/* video */
+
+.video {
+    background: #245852;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 200px 0;
+    padding: 150px 100px 150px 100px;
+
+}
+
+.video--text {
+    margin-bottom: 30px;
+}
+
+.video--kayla {
+    width: 600px;
+    position: relative;
+}
+
+.video--playb {
+    position: relative;
+    top: -220px;
+    right: -270px;
+}
+
+/* product */
+
+.product {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 200px 0;
+    padding: 150px 100px 150px 100px;
+    position: relative;
+    top: 5px;
+}
+
+.product--texts {
+    padding-left: 120px;
+}
+
+.product--text {
+    margin-bottom: 30px;
+}
+
+.product--pic {
+    background-color: #01996D33;
+    padding: 0 150px 0 100px;
+
+
+}
+
+.product--kayla {
+    position: relative;
+    top: 5px;
+}
+
+.product--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 18px 19px 24px -14px #000000;
+}
+
+.product--avatar {
+    color: #C4C4C4;
+    width: 57.438px;
+    height: 57.438px;
+    flex-shrink: 0;
+    margin-top: 16px;
+}
+
+.product--line {
+    width: 150px;
+    border: solid 0.75px;
+}
+
+
+.product--avatar-face {
+    position: absolute;
+    top: 100px;
+    left: 175px;
+    width: 45px;
+}
+
+.product--user-name {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.product--card-title1 {
+    margin-top: 16px;
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157%;
+}
+
+.product--card-title2 {
+    color: #000;
+    font-family: Georgia;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 157%;
+
+}
+
+.product--card-point {
+    margin-top: 16px;
+    
+}
+
+/* footer */
+
+.footer{
+    background: #245852;
+    padding: 150px 100px 150px 100px;
+}
+
+.footer--logo{
+    color: #FFF;
+font-family: Avenir;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.footer--texts{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer--texts-item{
+    margin-top: 60px;
+}
